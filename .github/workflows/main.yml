@@ -1,21 +1,23 @@
-name: Generate Snake Contribution
+name: Generate GitHub Snake Contribution
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Runs every day at midnight
-  workflow_dispatch:      # Allows manual run
+    - cron: "0 0 * * *"     # Runs daily at midnight
+  workflow_dispatch:        # Allows you to run it manually
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate GitHub Snake
+      - name: Generate Snake Animation
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: Piyushsingh0001
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
