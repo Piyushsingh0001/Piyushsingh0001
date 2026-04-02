@@ -68,10 +68,14 @@ With a strong background in **IoT & Embedded Systems**, and hands-on expertise i
 
 ---
 
-### 🐍 Contribution Activity
+### 🐍 My Contribution Activity
 
 <div align="center">
-  <img src="https://github.com/Piyushsingh0001/Piyushsingh0001/blob/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Piyushsingh0001/Piyushsingh0001/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Piyushsingh0001/Piyushsingh0001/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Piyushsingh0001/Piyushsingh0001/output/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
 
 ---
